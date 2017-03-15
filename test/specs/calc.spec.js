@@ -54,10 +54,13 @@
 
     describe('factorial function', function() {
 
+      it('should 5 to factorial to 120', function () {
+        let resultFactorial = window.calc.factorial(5);
+        expect( resultFactorial ).to.equal(120);
+      });
+
+
     });
-
-
-
   });
 
 
