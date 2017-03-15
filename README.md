@@ -8,7 +8,7 @@ More specifically, this assignment will attempt to give me more practice utilizi
 
 The initial files were forked from Jordan Kasper and then cloned to my own repo to begin work.
 
-# Terminal Commands Used:
+# Terminal Commands:
 ```sh
   npm init
   //initialize package.json & answer questions pertinent to project
