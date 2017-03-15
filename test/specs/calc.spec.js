@@ -20,6 +20,10 @@
         expect( result ).to.be.a('number').and.to.equal(6);
       });
 
+      it('should handle no arguements', function() {
+        let result = window.calc.sum();
+        expect( result ).to.be.a('number');
+      });
 
     });
 
