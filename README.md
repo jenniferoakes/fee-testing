@@ -8,6 +8,22 @@ More specifically, this assignment will attempt to give me more practice utilizi
 
 The initial files were forked from Jordan Kasper and then cloned to my own repo to begin work.
 
+# Terminal Commands Used:
+```sh
+  npm init
+  //initialize package.json & answer questions pertinent to project
+
+  npm install mocha --save-dev
+  //install mocha
+
+  npm install --save-dev karma chai karma-mocha karma-chai karma-chrome-launcher
+  //installing karma, chai, and Mocha
+
+  ./node_modules/karma/bin/karma start conf.js
+  //starts karma in specified file
+
+  npm test
+```
 
 By: Jennifer Oakes
 March 2017
