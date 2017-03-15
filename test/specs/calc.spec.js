@@ -15,7 +15,10 @@
         expect( result ).to.be.a('function');
       });
 
-      
+      it('should add the numbers provided and give the total', function() {
+        let result = window.calc.sum([1, 2, 3]);
+        expect( result ).to.be.a('number').and.to.equal(6);
+      });
 
 
     });
