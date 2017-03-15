@@ -59,6 +59,11 @@
         expect( result ).to.equal(120);
       });
 
+      it('should be a function', function() {
+        let result = window.calc.factorial;
+        expect( result ).to.be.a('function');
+      });
+
       it('should return the number 0 if a string is placed in the argument', function() {
         let result = window.calc.factorial('string');
         expect( result ).to.equal(0);
@@ -69,14 +74,10 @@
         expect( result ).to.equal(0);
       });
 
-      it('should return the number 0 if no arguements are present', function() {
+      it('should run with no arguments and equal 0', function() {
         let result = window.calc.factorial();
         expect( result ).to.equal(0);
       });
-
-
-
-
 
     });
   });
