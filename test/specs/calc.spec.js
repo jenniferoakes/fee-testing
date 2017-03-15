@@ -54,10 +54,28 @@
 
     describe('factorial function', function() {
 
-      it('should 5 to factorial to 120', function () {
-        let resultFactorial = window.calc.factorial(5);
-        expect( resultFactorial ).to.equal(120);
+      it('should multiple all the numbers underneath the top number until it reaches 1', function () {
+        let result = window.calc.factorial(5);
+        expect( result ).to.equal(120);
       });
+
+      it('should return the number 0 if a string is placed in the argument', function() {
+        let result = window.calc.factorial('string');
+        expect( result ).to.equal(0);
+      });
+
+      it('should return the number 0 if an object is placed in the argument', function() {
+        let result = window.calc.factorial({});
+        expect( result ).to.equal(0);
+      });
+
+      it('should return the number 0 if no arguements are present', function() {
+        let result = window.calc.factorial();
+        expect( result ).to.equal(0);
+      });
+
+
+
 
 
     });
