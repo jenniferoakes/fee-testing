@@ -15,7 +15,7 @@
         expect( result ).to.be.a('function');
       });
 
-      it('should run with no arguments and equal 0', function() {
+      it('should handle no arguments and equal 0', function() {
         let numbersArg = window.calc.sum();
         expect(numbersArg).to.equal(0);
       });
@@ -23,6 +23,11 @@
       it('should add the numbers provided in an array and give the total', function() {
         let result = window.calc.sum([1, 2, 3]);
         expect( result ).to.be.a('number').and.to.equal(6);
+      });
+
+      it('should handle only one argument', function() {
+        let result = window.calc.sum([1]);
+        expect( result ).to.be.a('number').and.to.equal(1);
       });
 
       it('should equal 0 if no numbers are specified in an empty array', function() {
@@ -43,6 +48,11 @@
       it('should return undefined if an array includes a string', function() {
         let result = window.calc.sum([1, 'foo', 3]);
         expect( result ).to.be.NaN;
+      });
+
+      it('should convert strings to numbers', function() {
+        let result = window.calc.sum(['1', '2', '3']);
+        expect( result ).to.be.a('number').and.to.equal(6);
       });
 
       it('should return undefined if an array includes a string number', function() {
