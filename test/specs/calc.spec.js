@@ -89,6 +89,11 @@
         expect( result ).to.equal(0);
       });
 
+      it('should return 0 if the top number passed into the factorial function is 0', function() {
+        let result = window.calc.factorial(0);
+        expect( result ).to.equal(1);
+      });
+
     });
   });
 
