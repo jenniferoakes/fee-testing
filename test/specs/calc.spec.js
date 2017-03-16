@@ -50,12 +50,12 @@
         expect( result ).to.be.NaN;
       });
 
-      it('should convert strings to numbers', function() {
+      it('should handle string numbers in an array', function() {
         let result = window.calc.sum(['1', '2', '3']);
         expect( result ).to.be.a('number').and.to.equal(6);
       });
 
-      it('should return undefined if an array includes a string number', function() {
+      it('should handle an array with mixed content', function() {
         let result = window.calc.sum([1, '2', 3]);
         expect( result ).to.equal(6);
       });
