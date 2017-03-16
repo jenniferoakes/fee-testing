@@ -8,7 +8,7 @@ More specifically, this assignment will attempt to give me more practice utilizi
 
 The initial files were forked from Jordan Kasper and then cloned to my own repo to begin work.
 
-# Terminal Commands:
+## Terminal Commands:
 ```sh
   npm init
 
@@ -20,7 +20,7 @@ The initial files were forked from Jordan Kasper and then cloned to my own repo 
 
   npm test
 ```
-# Tasks Completed:
+## Tasks Completed:
 - [x] Initialized package.json & answer questions pertinent to project
 - [x] Installed mocha
 - [x] Installed karma, chai, and mocha
