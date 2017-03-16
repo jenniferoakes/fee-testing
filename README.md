@@ -26,6 +26,6 @@ The initial files were forked from Jordan Kasper and then cloned to my own repo 
 - [x] Installed karma, chai, and mocha
 - [x] Started karma in specific configuration file
 
-By: [Jennifer Oakes](https://github.com/jenniferoakes)
+By: [Jennifer Oakes](https://www.linkedin.com/in/jennifernicoleoakes/)
 
 March 2017
