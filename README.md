@@ -25,5 +25,5 @@ The initial files were forked from Jordan Kasper and then cloned to my own repo 
   npm test
 ```
 
-By: Jennifer Oakes
+By: [Jennifer Oakes](https://github.com/jenniferoakes)
 March 2017
