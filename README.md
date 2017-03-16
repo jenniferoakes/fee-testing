@@ -1,6 +1,6 @@
 # Front End Testing
 
-This repo is a practice area for testing front end JavaScript code.
+This repo is a practice area for unit testing for front end JavaScript code.
 
 With this assignment, I will practice setting up a testing environment and writing unit tests for my code. By the end of the assignment, I am planning on being able to create accurate infrastructure for testing. My goal is to begin writing tests by reading existing code files and understand what is happening.
 
